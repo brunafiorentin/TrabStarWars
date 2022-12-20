@@ -55,20 +55,19 @@ export default function Login() {
   };
 
   return (
-    <Grid container style={{ padding: 10 }}>
+    <div className='login-container'>
       <Grid item xs={12}>
-        <div style={{ textAlign: 'center' }}>
+        <div style={{ textAlign: 'center', color:"white" }}>
           <h1>Sejam Bem-Vindos</h1>
           <h2>STAR WARS APP</h2>
         </div>
       </Grid>
-      <Grid item md={4} xs={12} sm={12}></Grid>
       <Grid
         item
         md={4}
         xs={12}
         sm={12}
-        style={{ backgroundColor: 'white', padding: 10, borderRadius: 10 }}
+        style={{ backgroundColor: 'white', padding: 10, borderRadius: 10, width: 600, marginTop: 30 }}
       >
         <div style={{ marginBottom: 10 }}>
           <TextField
@@ -114,6 +113,6 @@ export default function Login() {
         </div>
       </Grid>
       <Grid item md={4} xs={12} sm={12}></Grid>
-    </Grid>
+    </div>
   );
 }
