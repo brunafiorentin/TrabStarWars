@@ -1,5 +1,5 @@
 # TrabStarWars
-Professor: Marcos Roberto dos Santos
+Professor: Marcos Roberto dos Santos  <br /> 
 Aluno(a): Bruna Fiorentin  <br /> 
 RA: 1124117  <br /> 
 
